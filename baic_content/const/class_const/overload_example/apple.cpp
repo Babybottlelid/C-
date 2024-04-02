@@ -1,4 +1,4 @@
-#include "apple.h"
+#include "./apple.h"
 #include <iostream>
 
 int Apple::apple_number = 10;
@@ -17,6 +17,6 @@ void Apple::take(int num) const {
 }
 int Apple::getCount() const {
   take(1);
-  add(); // error
+ // add(); // error
   return apple_number;
 }

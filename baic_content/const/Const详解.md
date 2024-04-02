@@ -125,6 +125,13 @@ const char * const p; //p is a const pointer to const char
 ```C++
 const int *ptr;
 *ptr = 10; // error
+
+//ok
+const int *ptr; // 指向常量整数的指针，未初始化
+int num = 10;
+ptr = &num; // 将指针 ptr 指向变量 num 的地址
+
+
 ```
 
 

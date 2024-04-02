@@ -1,1 +1,1 @@
-extern int ext = 13;
+ const int ext = 13;

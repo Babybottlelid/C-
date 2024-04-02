@@ -1,12 +1,11 @@
-#include "apple.h"
-#include <iostream>
-using namespace std;
+#pragma once
 
-int main() {
-  Apple a(2);
-  cout << a.getCount() << endl;
-  a.add(10);
-  const Apple b(3);
-  b.add(100);
-  return 0;
-}
+class Apple {
+public:
+  Apple(int i);
+  static int apple_number;
+  void take(int num) const;
+  int add();
+  int add(int num) const;
+  int getCount() const;
+};
