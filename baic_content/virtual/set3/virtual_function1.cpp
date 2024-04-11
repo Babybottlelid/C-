@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-class Derived;
+//class Derived;
 
 class Base {
 public:
